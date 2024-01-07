@@ -1,0 +1,13 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #34495e;
+  padding: 10px;
+  color: white;
+  bottom: 0;
+  width: 100%;
+}

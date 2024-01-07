@@ -1,0 +1,29 @@
+/* Dashboard.css */
+
+.dashboard-card {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btnColor {
+  background-color: #663399;
+  border: none;
+  color: #ddd;
+}
+.btnColor:hover {
+  color: #663399 !important;
+  background-color: rgb(239, 114, 114) !important;
+  outline: none;
+  border: none;
+}
+
+.videoDiv{
+  display: flex;
+  justify-content: center;
+}
