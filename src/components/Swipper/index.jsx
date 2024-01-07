@@ -1,8 +1,7 @@
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation, Pagination, Scrollbar } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -27,8 +26,11 @@ const index = () => {
   ];
   return (
     <div style={{ margin: "30px auto" }}>
+      <div>
+        <p className="text-center fw-bold">Oppening Ceremony</p>
+      </div>
       <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        modules={[Navigation, Pagination, Scrollbar]}
         // spaceBetween={1}
         slidesPerView={3}
         navigation
