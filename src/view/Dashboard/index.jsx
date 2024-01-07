@@ -3,7 +3,7 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "./index.css";
-import Carousel from "../../components/carousels/index";
+import SwiperComponent from "../../components/Swipper/index";
 
 const Index = () => {
   return (
@@ -35,15 +35,7 @@ const Index = () => {
           </Col>
         </Row>
       </Container>
-      <Carousel />
-      <div className="videoDiv">
-        <video width="700" height="240" controls>
-          <source
-            src={"../../public/assets/images/video.mp4"}
-            type="video/mp4"
-          />
-        </video>
-      </div>
+      <SwiperComponent />
     </div>
   );
 };
